@@ -1,6 +1,6 @@
 keytool -genkeypair \
         -keyalg RSA \
-        -keysize 3072 \
+        -keysize 2048 \
         -alias localhost\
         -dname "CN=localhost,OU=Development,O=KPI,C=DE" \
         -ext BC:c=ca:false \
